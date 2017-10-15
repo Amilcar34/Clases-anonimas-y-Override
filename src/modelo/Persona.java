@@ -2,6 +2,8 @@ package modelo;
 
 public class Persona {
 	
+	
+	//La clase Object ya tiene su metodo toString asique lo estamos reescribiendo y poreso ponemos @Override
 	@Override
 	public String toString() {
 		return "clase padre (Persona): ";

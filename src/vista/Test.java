@@ -7,6 +7,14 @@ public class Test {
 
 	public static void main(String[] args) {
 
+		/*
+		Proyecto con el fin de mostrar el comportamiento de clases anonimas y el uso de Override
+		hay dos clases en modelo Persona y Empleado, la clase Persona hereda de la clase Empelado
+		hay 4 objetos:
+		3 del tipo persona y 1 del tipo Empleado para analizar el comportamiento de metodos que tienen
+		
+		*/
+		
 		Persona p1 = new Persona();
 		System.out.println(p1.toString());
 		p1.imprime();

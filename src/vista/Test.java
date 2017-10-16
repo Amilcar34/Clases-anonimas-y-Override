@@ -1,6 +1,7 @@
 package vista;
 
 import modelo.Empleado;
+import modelo.IPersona;
 import modelo.Persona;
 
 public class Test {
@@ -10,10 +11,12 @@ public class Test {
 		/*
 		Proyecto con el fin de mostrar el comportamiento de clases anonimas y el uso de Override
 		hay dos clases en modelo Persona y Empleado, la clase Persona hereda de la clase Empelado
-		hay 4 objetos:
+		hay 5 objetos:
 		3 del tipo persona y 1 del tipo Empleado para analizar el comportamiento de metodos que tienen
 		*/
 		
+		IPersona i1 = new IPersona() {};
+		i1.imprime();
 		
 		Persona p1 = new Persona();
 		System.out.println(p1.toString());

@@ -1,6 +1,6 @@
 package modelo;
 
-public class Persona {
+public class Persona implements IPersona{
 	
 	
 	//La clase Object ya tiene su metodo toString asique lo estamos reescribiendo y poreso ponemos @Override
